@@ -29,12 +29,12 @@ class Question():
             'file_path': path
         })
     
-    def add_alternative(self, text: str, letter=None, path=None):
+    def add_alternative(self, text=None, letter=None, path=None):
         if not letter:
             try:
                 last_letter = self.alternatives[len(self.alternatives)-1].get('letter')
                 letter = chr(ord(last_letter)+1)
-            except :
+            except:
                 letter = 'A'
         
         self.alternatives.append({

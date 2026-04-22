@@ -13,10 +13,10 @@ question.statement = 'O biocombustível a que se refere o texto é o'
 
 question.add_context('image', path='images/image.jpeg')
 
-question.add_alternative('etanol')
-question.add_alternative('biogás')
-question.add_alternative('butano')
-question.add_alternative('metanol')
+question.add_alternative('etanollllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll')
+question.add_alternative(path='images/image.jpeg')
+question.add_alternative(path='images/image.jpeg')
+question.add_alternative(path='images/image.jpeg')
 question.add_alternative('biodisel')
 
 popup = layout.ENEMpopup()
